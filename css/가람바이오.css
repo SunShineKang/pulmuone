@@ -647,7 +647,7 @@ html {
     }
 
     html{
-        font-size: %;
+        
     }
 
 }
@@ -659,12 +659,18 @@ html {
         
     }
 }
-@media screen and (max-width:390px) {
+@media screen and (max-width:363px) {
     
     .footer .sns_wrap .sns2 p {
         line-height: 1.2vw;
     }
-
+    .section01 .header .inner01 .nav ul li {
+      padding: 0 10px;
+        
+    }
+    html {
+        font-size: 15%;
+    }
 }
 
 
